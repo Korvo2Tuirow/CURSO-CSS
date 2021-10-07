@@ -1,0 +1,14 @@
+@charset "8";
+
+h1{
+    background-color: lightgrey;
+    width: 300px;
+    height: 300px;
+    border: 10px darkgray solid;
+    padding: 10px;
+    margin: auto;
+}
+a{
+    border: 1px red solid;
+    display: inline-block;
+}

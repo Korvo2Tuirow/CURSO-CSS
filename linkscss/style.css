@@ -1,0 +1,24 @@
+@charset "8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: seagreen;
+}
+
+a:hover{
+
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
