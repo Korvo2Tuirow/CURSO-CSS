@@ -1,0 +1,19 @@
+#container{
+    position: relative;
+    height: 96vh;
+    padding: 10px;
+    background-color: purple;
+    border: black 3px solid;
+}
+
+#conteudo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: black 3px solid;
+    transform: translate(-50%, -50%);
+
+    height: 200px;
+    background-color: yellow;
+    width: 400px;
+}
