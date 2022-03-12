@@ -10,6 +10,14 @@ body{
 table{
     width: 600px;
     border-collapse: collapse;
+    position: relative; /*para deixar o head fixo*/
+}
+
+thead > tr > th{ /*head fixo*/
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+
 }
 
 td,th{
@@ -24,4 +32,8 @@ thead, tfoot{
 }
 .num{
     text-align: right;
+}
+
+tbody > tr:nth-child(2n){ /*efeito zebrado*/
+    background-color: rgba(127, 255, 212, 0.397);
 }
