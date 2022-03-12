@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+table{
+    width: 600px;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px black solid;
+    padding: 8px;
+   
+}
+
+thead, tfoot{
+    background-color: gray;
+    color: white;
+}
+.num{
+    text-align: right;
+}
